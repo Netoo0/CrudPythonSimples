@@ -57,7 +57,7 @@ class CRUDApp:
                 self.db_connection.commit()
                 messagebox.showinfo("Sucesso", "Tabela 'dados' criada com sucesso!")
 
-            # Criação do arquivo data.db
+            
             if not os.path.exists("data.db"):
                 open("data.db", "w").close()
                 
